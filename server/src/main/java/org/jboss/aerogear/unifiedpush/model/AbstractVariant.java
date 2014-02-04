@@ -47,7 +47,7 @@ public abstract class AbstractVariant extends PersistentObject implements Varian
     private static final long serialVersionUID = -5028062942838899201L;
 
     @NotNull
-    @Column
+    @Column(name = "variantType")
     private VariantType type;
 
     @Column
